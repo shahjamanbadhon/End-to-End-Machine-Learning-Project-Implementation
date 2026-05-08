@@ -14,6 +14,10 @@
 
 - MongoDB: https://account.mongodb.com/account/login
 
+### Data Link
+
+- Kaggle: https://www.kaggle.com/datasets/moro23/easyvisa-dataset
+
 
 ## How to run?
 
