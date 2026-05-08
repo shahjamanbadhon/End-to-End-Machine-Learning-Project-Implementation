@@ -10,6 +10,10 @@
 
 - https://whimsical.com/a
 
+### Database used:
+
+- MongoDB: https://account.mongodb.com/account/login
+
 
 ## How to run?
 
@@ -22,7 +26,11 @@ conda create -n visa python=3.8 -y
 ```
 
 ```bash
-conda activate visa
+conda activate visaenv
+```
+
+```bash
+conda activate env list
 ```
 
 ```bash
