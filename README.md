@@ -18,6 +18,15 @@
 
 - Kaggle: https://www.kaggle.com/datasets/moro23/easyvisa-dataset
 
+## Workflow
+
+1. constant
+2. config_entity
+3. artifact_entity
+4. conponent
+5. pipeline
+6. app.py / demo.py
+
 
 ## How to run?
 
@@ -41,3 +50,14 @@ conda activate env list
 
 pip install -r requirements.txt
 ```
+
+
+### Export the  environment variable
+```bash
+
+
+export MONGODB_URL="mongodb+srv://entbappy:entbappy@cluster0.3lowor9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+
+export AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID>
+
+export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
