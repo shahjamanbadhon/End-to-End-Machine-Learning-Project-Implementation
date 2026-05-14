@@ -25,10 +25,15 @@ SCHEMA_FILE_PATH = os.path.join("config", "schema.yaml")
 
 
 
-# =========================
-# Data Ingestion Constants
-# =========================
 
+AWS_ACCESS_KEY_ID_ENV_KEY = "AWS_ACCESS_KEY_ID"
+AWS_SECRET_ACCESS_KEY_ENV_KEY = "AWS_SECRET_ACCESS_KEY"
+REGION_NAME = "us-east-1"
+
+
+"""
+Data Ingestion related constant start with DATA_INGESTION VAR NAME
+"""
 DATA_INGESTION_COLLECTION_NAME: str = "visa_data"
 
 DATA_INGESTION_DIR_NAME: str = "data_ingestion"
@@ -67,6 +72,15 @@ MODEL_TRAINER_TRAINED_MODEL_DIR: str = "trained_model"
 MODEL_TRAINER_TRAINED_MODEL_NAME: str = "model.pkl"
 MODEL_TRAINER_EXPECTED_SCORE: float = 0.6
 MODEL_TRAINER_MODEL_CONFIG_FILE_PATH: str = os.path.join("config", "model.yaml")
+
+
+"""
+MODEL EVALUATION related constant
+
+"""
+MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE: float = 0.02
+MODEL_BUCKET_NAME = "usvisabucket101"
+MODEL_PUSHER_S3_KEY = "model-registry"
 
 
 
