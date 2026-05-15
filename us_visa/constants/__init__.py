@@ -83,7 +83,8 @@ MODEL_BUCKET_NAME = "usvisabucket101"
 MODEL_PUSHER_S3_KEY = "model-registry"
 
 
-
+APP_HOST = "0.0.0.0"
+APP_PORT = 8080
 
 
 
